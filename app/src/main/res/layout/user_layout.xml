@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/user_analayout"
+    android:clickable="true"
+    android:layout_height="wrap_content"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/images"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/userName"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+
+        android:text="merhaba" />
+
+</LinearLayout>
